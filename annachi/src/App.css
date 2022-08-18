@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body{
+  font-family: 'Libre Baskerville', serif;
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.banner_content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin:0 auto ;
+  color:#fff;
+  font-size: 30px;
+}
+.banner_text{
+  width: 1000px;
+  
+  
+}
+.banner_text_h3{
+  font-size: 50px;
+  font-weight: 100px;
+}
+.banner_text_h1{
+  font-size: 200px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.banner_text_p{
+  font-size: 25px;
+}
+.navbar  {
+  position: absolute;
+  background-color : #f5d41a;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+.navbar__text {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+.logo {
+  width: 30%;
+}
+.logo img {
+
+  width: 220px;
+}
+.navbar__ul  {
+  
+  width: 70%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__ul :hover{
+  color:white;
+
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: rgba(63, 58, 58, 0.555);
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart {
+  background:   #f5d41a;
+}
+.btn-smart:hover {
+  color:black;
+}
+.about {
+
+  width: 100;
+  height: 100;
+  background :url("/public/img/bgs.png");
+
+  
+  padding: 80px 0;
+}
+
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  
+  
+  width: 50%;
+}
+#a{
+  font-size: 150%;
+  font-weight: 500;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.about h3 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about h6 {
+  color:  rgb(255, 69, 79);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about h1 {
+  font-size: 40px;
+  color:gold;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+}
+.about__img {
+  width: 80%;
+  overflow: hidden;
+}
+
+.about__img img {
+  width: 80%;
+  height: 40%;
+  border: 8px dotted gold;
+  margin-left: 80px;
+}
+
+
+.menu h1 {
+  
+  font-size: 25px;
+}
+.paryhall h1 {
+  
+  font-size: 25px;
+}
+.video{
+     width: 150%;
+     height: 100%;
+  margin-left:25%;
+  border: 8px dotted gold;
+  background-color: black;
+  
+
+}
+.clients {
+  width: 100%;
+  padding: 20px;
+  
+  background-size: 20px;
+  background-color:  #f5d41a;
+  background-attachment: fixed;
+}
+
+.client {
+  text-align: center;
+  
+}
+.client h1 {
+  font-style: 45px;
+  font-size: smaller;
+  color: black;
+}
+.client p {
+  color:rgba(63, 58, 58, 0.555);
+  font-style: 18px;
+  font-size: smaller;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
